@@ -39,7 +39,7 @@ jobs:
       # Run linting with flake8
       - name: Lint with flake8
         run: |
-          flake8 . --max-line-length=100 --exclude=.git,__pycache__,*.pyc
+          flake8 . --max-line-length=100 --exclude=.git,__pycache__,*.pyc,venv
 
       # Install testing tools (pytest if you have tests)
       - name: Install testing tools
